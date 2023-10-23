@@ -17,9 +17,9 @@ minimal: false
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.md", title: "Home"}
-  - {file: "Michael.pdf", title: "CV"}
   - {file: "Projects.html", title: "Projects"}
   - {file: "Blog.html", title: "Blog"}
+  - {title: "lAB", url: "https://www.axlab.cs.uchicago.edu/"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:wanliqian965@gmail.com"}
