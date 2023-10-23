@@ -10,6 +10,8 @@ categories: media
 
 GTGraffiti is a groundbreaking project that embodies the fusion of art and robotics. This project, conducted at Georgia Tech, involves the creation of a robot capable of painting like a human artist. The robot is designed to understand and replicate the nuanced strokes and techniques employed by human artists, thus pushing the boundaries of what machines can achieve in the domain of creative expression.
 
+{% include embed.html url="https://www.youtube.com/watch?v=5dH81DFNipQ" %}
+
 [Read the full paper](https://arxiv.org/pdf/2109.06238.pdf)
 
 ## Objectives
