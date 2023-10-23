@@ -1,11 +1,10 @@
 ---
 title: "Introducing GTGraffiti: A Robot that Paints like a Human"
 layout: post
-#categories: projects
+categories: media
 ---
-GTGraffiti is a groundbreaking project that embodies the fusion of art and robotics. This project, conducted at Georgia Tech, involves the creation of a robot capable of painting like a human artist. The robot is designed to understand and replicate the nuanced strokes and techniques employed by human artists, thus pushing the boundaries of what machines can achieve in the domain of creative expression.
 
-![GTGraffiti Robot](https://research.gatech.edu/sites/default/files/styles/1x1/public/2021-09/2021.03.10.Graffiti.painting%20robot%20%28copy%29.jpg?itok=v9W1PQhj)
+![Swiss Alps](https://user-images.githubusercontent.com/4943215/55412536-edbba180-5567-11e9-9c70-6d33bca3f8ed.jpg)
 
 ## Overview
 
