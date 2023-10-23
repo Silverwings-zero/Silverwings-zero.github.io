@@ -17,7 +17,7 @@ I am currently pursuing...
 
 Feel free to connect with me via [email](mailto:wanliqian965@gmail.com) or on [GitHub](https://github.com/Silverwings-zero).
 
-[About Me](/aboutMe) | [CV](/Michael.pdf) | [Projects](/Projects) | [Blog](/Blog)
+<!-- [About Me](/aboutMe) | [CV](/Michael.pdf) | [Projects](/Projects) | [Blog](/Blog) -->
 
 <style>
 .profile {
