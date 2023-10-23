@@ -3,50 +3,9 @@ layout: page
 title: Projects
 ---
 
-<h1>Projects</h1>
-
-<div class="project white-bg">
-  <h2>Project Title 1</h2>
-  <p>Description...</p>
-  <div class="links">
-    <a href="link-to-project" target="_blank">Link to Project</a> | 
-    <a href="link-to-publication" target="_blank">Link to Publication</a>
-  </div>
-  <a href="/project1.md" class="read-more-btn">Read more</a>
-</div>
-
-<div class="project gray-bg">
-  <h2>Project Title 2</h2>
-  <p>Description...</p>
-  <div class="links">
-    <a href="link-to-project" target="_blank">Link to Project</a> | 
-    <a href="link-to-publication" target="_blank">Link to Publication</a>
-  </div>
-  <a href="/project2.md" class="read-more-btn">Read more</a>
-</div>
-
-<!-- ... More projects -->
-
-<style>
-  .project {
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-  .white-bg {
-    background-color: #ffffff;
-  }
-  .gray-bg {
-    background-color: #a3a3a3;
-  }
-  .read-more-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-top: 10px;
-    background-color: #008CBA; /* Change color as desired */
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 4px;
-  }
-</style>
+{% if site.show_excerpts %}
+  {% include home.html %}
+{% else %}
+  {% include archive.html title="Posts" %}
+{% endif %}
  

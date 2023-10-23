@@ -17,7 +17,7 @@ minimal: false
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.md", title: "Home"}
-  - {file: "cv.pdf", title: "CV"}
+  - {file: "Michael.pdf", title: "CV"}
   - {file: "Projects.html", title: "Projects"}
   - {file: "Blog.html", title: "Blog"}
 
