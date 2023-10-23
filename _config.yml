@@ -3,7 +3,7 @@ author: "Michael Qian"
 description: "University of Chicago"
 permalink: /:title/
 lang: "en"
-excerpt_separator: "\n\n\n"
+excerpt_separator: "show_excerpt_below!!!"
 date_format: "%B %d, %Y"
 
 # Layout
