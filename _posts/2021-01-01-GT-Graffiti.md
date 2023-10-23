@@ -6,7 +6,7 @@ categories: media
 
 ![GTGraffiti](https://research.gatech.edu/sites/default/files/hero-image/gt_graffiti-robot.png)
 
-show_excerpt_below!!!
+
 
 ## Overview
 
