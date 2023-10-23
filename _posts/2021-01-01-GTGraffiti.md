@@ -1,16 +1,12 @@
-<!-- ---
-title: "Introducing GTGraffiti: A Robot that Paints like a Human"
-layout: post
-categories: media
---- -->
 ---
-title:  "Advanced examples"
-mathjax: true
+title: "Introducing GTGraffiti: A Robot that Paints like a Human"
 layout: post
 categories: media
 ---
 
 ![GTGraffiti](https://research.gatech.edu/sites/default/files/hero-image/gt_graffiti-robot.png)
+
+
 
 ## Overview
 
