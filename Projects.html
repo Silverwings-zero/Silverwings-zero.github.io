@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Projects
 ---
@@ -7,4 +7,17 @@ title: Projects
   {% include home.html %}
 {% else %}
   {% include archive.html title="Posts" %}
-{% endif %}
+{% endif %} -->
+---
+layout: page
+title: Projects
+---
+
+{%- assign posts = site.categories.projects -%}
+{% for post in posts %}
+  <article>
+    {% include meta.html post=post preview=true %}
+    {{ post.excerpt }}
+    <div class="more"><a href="{{ post.url | relative_url }}">read more</a></div>
+  </article>
+{% endfor %}
