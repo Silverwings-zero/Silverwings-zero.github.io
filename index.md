@@ -10,7 +10,7 @@ Welcome to my personal website! I am Michael Qian, a dedicated scholar at the Un
 Here's a brief overview of my academic journey:
 - Undergraduate studies: I completed my B.S. in Computer Science at the Georgia Institute of Technology 
 - Graduate studies: I am currently pursuing my Predoctoral M.S. in Computer Science at the University of Chicago with Prof. Ken Nakagaki
-- Research Interests: Generative AI, Tangible UI, Multi-Modal Interactions
+- Research Interests: Generative AI, Tangible UI, Multi-Modal Interactions, Robotics, Computer Vision
 
 Feel free to connect with me via [email](mailto:wanliqian965@gmail.com) or on [GitHub](https://github.com/Silverwings-zero).
 
