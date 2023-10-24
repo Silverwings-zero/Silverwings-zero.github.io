@@ -6,6 +6,8 @@ categories: projects
 
 ![Project Illustration](/path-to-your-image/image.jpg)  <!-- Replace with an actual image from the project if available -->
 
+
+
 ## Overview
 
 The project titled "Weakly Supervised Part-Based Method for Combined Object Detection in Remote Sensing Imagery" introduces a novel approach to object detection within remote sensing imagery. This method focuses on a part-based detection technique under a weakly supervised setting, aiming to enhance object detection performance while reducing the necessity for exhaustive labeling, which is a common hurdle in the remote sensing domain.

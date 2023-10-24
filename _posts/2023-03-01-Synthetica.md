@@ -6,6 +6,8 @@ categories: projects
 
 ![Synthetica Project Illustration](/path-to-your-image/image.jpg)  <!-- Replace with an actual image from the project if available -->
 
+
+
 ## Overview
 
 Synthetica is an immersive art project that delves into the realms of digital resurrection, fictional identities from movies and games, and the fusion of personality digital identities. By blurring the boundaries between reality and the virtual, Synthetica invites introspection on profound themes such as mortality, memory, and the ethics surrounding digital immortality. The project revives iconic characters through lifelike digital renderings, challenging the distinctions between fiction and reality.

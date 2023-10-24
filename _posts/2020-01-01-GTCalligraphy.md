@@ -5,7 +5,9 @@ categories: projects
 ---
 
 ![Project Illustration](/path-to-your-image/image.jpg)  <!-- Replace with an actual image from the project if available -->
-\n\n\n\n
+
+
+
 
 ## Overview
 
