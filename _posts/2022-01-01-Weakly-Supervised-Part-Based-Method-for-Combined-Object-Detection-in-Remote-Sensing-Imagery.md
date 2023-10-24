@@ -4,7 +4,7 @@ layout: post
 categories: projects
 ---
 
-![Project Illustration](/path-to-your-image/image.jpg)  <!-- Replace with an actual image from the project if available -->
+![Project Illustration](/img/PTDNet.jpg)  <!-- Replace with an actual image from the project if available -->
 
 
 
