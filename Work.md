@@ -8,7 +8,7 @@ permalink: /work-experience/
 
 In the progressive environment of the University of Chicago's Actuated User Experience Lab (AxLab), I have been exploring the dynamic rendering of 3D shapes through the project "SHAPE-IT." This initiative has bridged the capabilities of Generative AI, specifically GPT-4, with pin-based shape displays, enabling a novel approach to on-the-fly shape creation and customization. By harnessing the power of real-time language instructions, "SHAPE-IT" allows users to intuitively author shape, motion, and interaction without the necessity for pre-programmed behaviors.
 
-![SHAPE-IT Project](/assets/images/shape-it-project.png)
+![SHAPE-IT Project](/img/CERES.ipg)
 
 ## Software Engineer Intern at Kolmostar (May 2022 - September 2022)
 

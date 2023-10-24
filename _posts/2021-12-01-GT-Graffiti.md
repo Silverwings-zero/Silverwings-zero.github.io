@@ -1,5 +1,5 @@
 ---
-title: "Introducing GTGraffiti: A Robot that Paints like a Human"
+title: "Introducing GTGraffiti: A Robot that Paints like a Human(Collbration)"
 layout: post
 categories: media
 ---

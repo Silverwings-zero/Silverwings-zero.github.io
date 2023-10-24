@@ -19,7 +19,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.md", title: "Home"}
   - {title: "CV", url: "https://www.axlab.cs.uchicago.edu/"}
   - {file: "Projects.html", title: "Projects"}
-  - {file: "Work.md", title: "Work"}
+  #- {file: "Work.md", title: "Work"}
   - {title: "lAB", url: "https://www.axlab.cs.uchicago.edu/"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
