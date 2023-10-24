@@ -4,7 +4,7 @@ layout: post
 categories: projects
 ---
 
-![Project Illustration](/img/Calligraphy.jpg)  <!-- Replace with an actual image from the project if available -->
+![Project Illustration](/img/Calligraphy.png)  <!-- Replace with an actual image from the project if available -->
 
 
 

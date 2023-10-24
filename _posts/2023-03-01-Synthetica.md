@@ -4,7 +4,7 @@ layout: post
 categories: projects
 ---
 
-![Synthetica Project Illustration](/img/Synthetica.jpg)  <!-- Replace with an actual image from the project if available -->
+![Synthetica Project Illustration](/img/Synthetica.png)  <!-- Replace with an actual image from the project if available -->
 
 
 
