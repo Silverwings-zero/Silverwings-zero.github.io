@@ -5,12 +5,14 @@ title: Home
 
 ![Michael Qian's Profile Picture](./img/profile-image.jpg){: .profile-image}
 
-Welcome to my personal website! I am Michael Qian, a dedicated scholar at the University of Chicago, specializing in Computer Science. Here, you will find an overview of my academic projects, and a bit about my personal journey in the field of Computer Science. Feel free to explore!
+Welcome to my personal website! I am Michael Qian, Computer Science Ph.D Student at University of Southern California. Here, you will find an overview of my academic projects, and a bit about my personal journey in the field of Computer Science. Feel free to explore!
 
 Here's a brief overview of my academic journey:
 - Undergraduate studies: I completed my B.S. in Computer Science at the Georgia Institute of Technology 
-- Graduate studies: I am currently pursuing my Predoctoral M.S. in Computer Science at the University of Chicago with Prof. Ken Nakagaki
-- Research Interests: Generative AI, Tangible UI, Multi-Modal Interactions, Robotics, Computer Vision
+- Graduate studies: 
+    I completed my Predoctoral M.S. in Computer Science at the University of Chicago with Prof. Ken Nakagaki
+    Currently pursuing my Ph.D. in Computer Science at the University of Southern California with Prof. [Heather Culbertson](https://viterbi.usc.edu/directory/faculty/Culbertson/Heather), haptics rendering on robot devices.
+- Research Interests: Haptics, Generative AI, Multi-Modal Interactions, Robotics
 
 Feel free to connect with me via [email](mailto:wanliqian965@gmail.com) or on [GitHub](https://github.com/Silverwings-zero).
 
