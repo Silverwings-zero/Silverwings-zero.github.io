@@ -20,7 +20,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "CV", url: "https://uchicago.box.com/s/z7uky0de7m65nz7usubx6xjccvm8oo3k"}
   - {file: "Projects.html", title: "Projects"}
   #- {file: "Work.md", title: "Work"}
-  - {title: "lAB", url: "https://www.axlab.cs.uchicago.edu/"}
+  - {title: "lAB", url: "https://sites.usc.edu/culbertson/"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:wanliqian965@gmail.com"}
