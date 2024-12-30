@@ -6,7 +6,7 @@ categories: projects
 
 ![SHAPE-IT Illustration](/img/SHAPE-IT.png)  <!-- Replace with an actual image from the project if available -->
 
-
+![link to publication UIST2024 Posters](https://dl.acm.org/doi/abs/10.1145/3672539.3686315)
 
 
 ## Abstract
