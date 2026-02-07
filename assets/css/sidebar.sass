@@ -3,6 +3,8 @@
 
 @import index
 
+$sidebar-bg: #b00000
+
 html
   padding: 0
 
@@ -24,7 +26,7 @@ aside
   display: block!important
   position: fixed
   overflow: auto
-  background: darken($dark, 2%)
+  background: $sidebar-bg
   color: #fff
   padding: 2.25em
   width: 12em
@@ -44,7 +46,7 @@ nav a
   padding: .5em 2.25em
 
 nav a:hover, nav a.selected
-  background: lighten($dark, 2%)
+  background: lighten($sidebar-bg, 6%)
   text-decoration: inherit
 
 .icon
