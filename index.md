@@ -24,14 +24,12 @@ My long-term goal is to build **human-centered haptic systems** that connect **r
 
 Outside of research, I chase problems that pull me upward—climbing and weightlifting are my favorite ways to reset my mind, test patience and focus, and build a sense of steady progress. I also escape to the mountains for skiing whenever I can.
 
+<div class="interest-row">
 ![Climbing at the gym](./img/personal_interest/climb1.jpg){: .interest-image}
-*Climbing session — training grip and movement control.*
 ![Climbing on a board](./img/personal_interest/climb_crimp.jpg){: .interest-image}
-*Crimp work on the board — small holds, big focus.*
 ![Ski trip](./img/personal_interest/Ski_1.jpg){: .interest-image}
-*Ski days when I can trade a lab coat for fresh snow.*
 ![Hiking in Antelope Valley](./img/personal_interest/antelopevalley.jpg){: .interest-image}
-*Hiking breaks — open trails, big skies.*
+</div>
 
 Feel free to connect with me via [email](mailto:wanliqian965@gmail.com) or on [GitHub](https://github.com/Silverwings-zero).
 
@@ -51,9 +49,18 @@ Feel free to connect with me via [email](mailto:wanliqian965@gmail.com) or on [G
 }
 .interest-image {
   width: 220px;
-  height: auto;
+  height: 220px;
   border-radius: 12px;
   margin: 8px;
+  object-fit: cover;
+  object-position: 50% 20%;
+}
+.interest-row {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+  align-items: center;
+  overflow-x: auto;
 }
 .section-divider {
   border: 0;
