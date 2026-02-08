@@ -3,8 +3,77 @@ layout: page
 title: Projects
 ---
 
-{% if site.show_excerpts %}
-  {% include home.html %}
-{% else %}
-  {% include archive.html title="Posts" %}
-{% endif %}
+<div class="projects-grid">
+  {%- assign posts = site.posts -%}
+  {%- for post in posts -%}
+    <article class="project-card">
+      <div class="project-meta">{{ post.date | date: site.date_format }}</div>
+      <h2 class="project-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h2>
+      <p class="project-excerpt">
+        {{ post.excerpt | strip_html | truncate: 200 }}
+      </p>
+      <a class="project-link" href="{{ post.url | relative_url }}">Read more</a>
+    </article>
+  {%- endfor -%}
+</div>
+
+<style>
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+  margin-top: 1.5rem;
+}
+.project-card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  padding: 18px 18px 16px 18px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+.project-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 0, 0, 0.14);
+}
+.project-meta {
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+.project-title {
+  font-size: 1.05rem;
+  line-height: 1.4;
+  margin: 0 0 10px 0;
+}
+.project-title a {
+  color: #111827;
+  text-decoration: none;
+}
+.project-title a:hover {
+  text-decoration: underline;
+}
+.project-excerpt {
+  color: #374151;
+  margin: 0 0 14px 0;
+}
+.project-link {
+  display: inline-block;
+  font-weight: 600;
+  color: #b00000;
+  text-decoration: none;
+}
+.project-link:hover {
+  text-decoration: underline;
+}
+@media (max-width: 480px) {
+  .project-card {
+    padding: 16px;
+  }
+}
+</style>
