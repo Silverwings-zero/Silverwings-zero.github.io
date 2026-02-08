@@ -32,6 +32,10 @@
   {% include menu.html menu=pages %}
 </header>
 
+<a class="usc-logo" href="{{ "/" | relative_url }}" aria-label="USC logo">
+  <img src="{{ "/img/USC%20logo.png" | relative_url }}" alt="USC logo">
+</a>
+
 {{ content }}
 
 {% if site.external %}
