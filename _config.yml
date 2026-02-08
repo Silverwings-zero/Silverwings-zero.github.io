@@ -17,7 +17,7 @@ minimal: false
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.md", title: "Home"}
-  - {title: "CV", url: "https://uchicago.box.com/s/z7uky0de7m65nz7usubx6xjccvm8oo3k"}
+  - {title: "CV", url: "https://drive.google.com/file/d/1wZURAky8GVt10Ron4KSRGDLWvjPvwwQA/view?usp=sharing"}
   - {file: "Projects.html", title: "Projects"}
   - {file: "Media.md", title: "Media"}
   #- {file: "Work.md", title: "Work"}

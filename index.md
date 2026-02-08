@@ -20,11 +20,18 @@ A core direction of my work is the integration of VR/AR and language-based inter
 
 My long-term goal is to build human-centered haptic systems that connect robotic perception with immersive interaction—supporting applications in teleoperation, design, accessibility, and embodied AI, where touch becomes an expressive and programmable medium.
 
+<hr class="section-divider">
+
 Outside of research, I chase problems that pull me upward—climbing and weightlifting are my favorite ways to reset my mind, test patience and focus, and build a sense of steady progress. I also escape to the mountains for skiing whenever I can.
 
 ![Climbing at the gym](./img/personal_interest/climb1.jpg){: .interest-image}
+*Climbing session — training grip and movement control.*
 ![Climbing on a board](./img/personal_interest/climb_crimp.jpg){: .interest-image}
+*Crimp work on the board — small holds, big focus.*
 ![Ski trip](./img/personal_interest/Ski_1.jpg){: .interest-image}
+*Ski days when I can trade a lab coat for fresh snow.*
+![Hiking in Antelope Valley](./img/personal_interest/antelopevalley.jpg){: .interest-image}
+*Hiking breaks — open trails, big skies.*
 
 Feel free to connect with me via [email](mailto:wanliqian965@gmail.com) or on [GitHub](https://github.com/Silverwings-zero).
 
@@ -36,15 +43,22 @@ Feel free to connect with me via [email](mailto:wanliqian965@gmail.com) or on [G
   margin-bottom: 20px;
 }
 .profile-image {
-  border-radius: 50%;
+  border-radius: 10px;
   margin-bottom: 20px;
-  width: 150px; /* Adjust width as necessary */
-  height: auto;
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
 }
 .interest-image {
   width: 220px;
   height: auto;
   border-radius: 12px;
   margin: 8px;
+}
+.section-divider {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,0.2), rgba(0,0,0,0));
+  margin: 24px 0 18px 0;
 }
 </style>

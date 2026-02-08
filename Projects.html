@@ -7,6 +7,13 @@ title: Projects
   {%- assign posts = site.posts -%}
   {%- for post in posts -%}
     <article class="project-card">
+      {%- assign content = post.content -%}
+      {%- if content contains 'src="' -%}
+        {%- assign img_src = content | split: 'src="' | slice: 1 | first | split: '"' | first -%}
+        <a class="project-image" href="{{ post.url | relative_url }}">
+          <img src="{{ img_src | relative_url }}" alt="{{ post.title }}">
+        </a>
+      {%- endif -%}
       <div class="project-meta">{{ post.date | date: site.date_format }}</div>
       <h2 class="project-title">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -22,7 +29,7 @@ title: Projects
 <style>
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
   margin-top: 1.5rem;
 }
@@ -71,9 +78,28 @@ title: Projects
 .project-link:hover {
   text-decoration: underline;
 }
+@media (max-width: 900px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
 @media (max-width: 480px) {
   .project-card {
     padding: 16px;
   }
 }
 </style>
+.project-image {
+  display: block;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  background: #f3f4f6;
+}
+.project-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
