@@ -4,6 +4,8 @@ layout: post
 categories: projects
 ---
 
+![The Franka FR3 arm and gripper used for bilateral teleoperation](/img/Teleop_franka.jpg)
+
 **Ongoing project**
 
 Teleoperators see the task but feel almost nothing at the moment of contact. This project estimates the robot's contact state from its tactile and force sensors and renders it back to the operator's hand, so the operator can feel what the gripper is touching.
@@ -25,6 +27,10 @@ Teleoperation is how most contact-rich robot demonstrations are collected, yet t
 - **Contact estimation.** Normal force, sliding velocity, and texture identity are inferred from the sensor streams. The central task is cross-modal inference from GelSight Mini images to these contact parameters.
 - **Rendering to the operator.** The estimated contact state drives realistic vibrotactile signals on a Weart haptic glove, building on data-driven texture rendering from the Penn Haptic Texture Toolkit lineage. The aim is to improve operator trajectory accuracy during contact.
 - **Temporal representation (in progress).** A multimodal temporal encoder is trained with perceptual rendering supervision: it must produce signals a person perceives as realistic, rather than only reconstructing frames. The hypothesis is that this objective captures temporal contact structure, such as the transition from sliding into slip, that frame-level tactile self-supervised learning misses.
+
+![Fitting the Weart haptic glove on a user's hand](/img/Teleop_glove.jpg)
+
+*Fitting the Weart haptic glove, which renders the robot's contact back to the operator's hand.*
 
 ## Why It Matters
 
