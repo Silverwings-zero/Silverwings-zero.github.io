@@ -30,7 +30,7 @@ Teleoperation is how most contact-rich robot demonstrations are collected, yet t
 
 One learned representation of contact can serve two users. For the human operator, it provides texture and contact feedback through the glove. For the robot, it provides the signals needed to anticipate slip during manipulation. Texture and slip are treated as two regimes of the same frictional-vibratory response, not as separate problems.
 
-## Related Work
+## Related Projects
 
 - [Language-Guided Multimodal Texture Authoring (IEEE Haptics Symposium 2026)]({% post_url 2026-02-08-Paper-2026017722 %}), our data-driven texture model built on the Penn Haptic Texture Toolkit
 - [Real–Sim–Real: Grounding Simulated Tactile Signals in Measured Contact]({% post_url 2026-09-25-Real-Sim-Real-Tactile-Simulation %}), a companion direction on scaling tactile data in simulation

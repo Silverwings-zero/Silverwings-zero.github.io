@@ -32,7 +32,7 @@ Tactile data is the bottleneck for contact-rich robot learning. Real tactile dat
 Ongoing. The material measurements and dataset construction are in progress.
 <!-- TODO: credit collaborators / undergraduate researcher, if you want them listed -->
 
-## Related Work
+## Related Projects
 
 - [Feeling What the Robot Touches: Haptic Rendering for Bilateral Teleoperation]({% post_url 2026-09-26-Haptic-Bilateral-Teleoperation %}), a companion project on real-world tactile sensing and rendering
 - [Language-Guided Multimodal Texture Authoring (IEEE Haptics Symposium 2026)]({% post_url 2026-02-08-Paper-2026017722 %})
