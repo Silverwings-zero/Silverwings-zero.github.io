@@ -39,4 +39,4 @@ One learned representation of contact can serve two users. For the human operato
 ## Related Projects
 
 - [Language-Guided Multimodal Texture Authoring (IEEE Haptics Symposium 2026)]({% post_url 2026-02-08-Paper-2026017722 %}), our data-driven texture model built on the Penn Haptic Texture Toolkit
-- [Real–Sim–Real: Grounding Simulated Tactile Signals in Measured Contact]({% post_url 2026-09-25-Real-Sim-Real-Tactile-Simulation %}), a companion direction on scaling tactile data in simulation
+- [Physically Grounded Material Diversity for Dexterous Manipulation]({% post_url 2026-09-25-Grounded-Material-Diversity %}), a companion project that brings measured materials into simulation for robot hands
