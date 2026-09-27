@@ -14,8 +14,6 @@ The project titled "Weakly Supervised Part-Based Method for Combined Object Dete
 
 [Read the full paper](https://www.researchgate.net/publication/363031623_Weakly_Supervised_Part-Based_Method_for_Combined_Object_Detection_in_Remote_Sensing_Imagery)
 
-\n\n\n\n
-
 ## Objectives
 
 The primary objectives of this project include:
