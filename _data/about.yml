@@ -31,7 +31,6 @@ service:
   - {label: "Mentor", text: "USC CURVE, Viterbi SURE, and REU students"}
 
 life:
-  intro: "Climbing and weightlifting reset my mind and reward steady progress. When I can, I head to the mountains to ski."
   photos:
     - {src: "/img/life/bouldering.jpg", alt: "Climbing at the gym", caption: "Bouldering"}
     - {src: "/img/life/board-climbing.jpg", alt: "Climbing on a training board", caption: "Board climbing"}

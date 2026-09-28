@@ -140,7 +140,9 @@ layout: default
 
 <section class="section" id="life" aria-labelledby="life-title">
   <div class="sec-head"><h2 id="life-title">Off the clock</h2></div>
+  {%- if about.life.intro %}
   <p class="life-intro">{{ about.life.intro }}</p>
+  {%- endif %}
   <div class="life">
     {%- for ph in about.life.photos %}
     <figure><img src="{{ ph.src | relative_url }}" alt="{{ ph.alt }}" loading="lazy"><figcaption>{{ ph.caption }}</figcaption></figure>
