@@ -1,71 +1,13 @@
 ---
-layout: page
+layout: home
 title: Home
+lede: "I'm a Computer Science Ph.D. student at **USC**, working with Prof. [Heather Culbertson](https://viterbi.usc.edu/directory/faculty/Culbertson/Heather) in the **HaRVI Lab**. I build systems that let people and robots capture, generate, and feel touch: haptic textures you can describe in words, scanned scenes you can touch, and teleoperation that lets you feel what the gripper feels."
 ---
 
-![Michael Qian's Profile Picture](./img/profile-image.jpg){: .profile-image}
+My research sits at the intersection of robotics, human-computer interaction (HCI), and immersive systems (VR/AR), with a focus on how humans and machines can create, understand, and experience touch. I study how tactile and physical interactions, captured through force, vibration, motion, sound, and vision, can be structured into representations that are meaningful both to robots and to people.
 
-Welcome to my personal website! I am Michael Qian, a Computer Science Ph.D. student at the University of Southern California. My research sits at the intersection of **robotics**, **human-computer interaction (HCI)**, and **immersive systems (VR/AR)**, with a focus on how humans and machines can **create, understand, and experience touch**. I study how **tactile and physical interactions**—captured through **force**, **vibration**, **motion**, **sound**, and **vision**—can be structured into representations that are meaningful both to **robots** and to **people**. Here, you will find an overview of my academic projects and research direction. Feel free to explore!
+On the robotics side, I explore active and embodied perception, where robots choose how to interact with objects (e.g., tapping, sliding, shaking) to efficiently infer material properties, internal structure, and affective qualities such as roughness or hardness. On the HCI side, I investigate how these representations can be exposed to users through intuitive interfaces, enabling people to reason about, author, and manipulate physical sensations rather than raw sensor data.
 
-Here's a brief overview of my academic journey:
-- Undergraduate studies: I completed my B.S. in Computer Science at the Georgia Institute of Technology 
-- Graduate studies: 
-    I completed my Predoctoral M.S. in Computer Science at the University of Chicago with Prof. Ken Nakagaki
-    Currently pursuing my Ph.D. in Computer Science at the University of Southern California with Prof. [Heather Culbertson](https://viterbi.usc.edu/directory/faculty/Culbertson/Heather), focused on virtual haptic interactions and haptic rendering.
-- Research Interests: Haptics, Robotics, HCI, VR/AR, Virtual Haptic Interactions, Haptic Rendering, Multi-Modal Interactions
+A core direction of my work is the integration of VR/AR and language-based interaction for haptic and texture authoring. I am interested in systems where users can describe objects and surface properties in natural language, generate or edit 3D objects and textures in immersive environments, and feel the resulting surfaces through haptic rendering devices. This bridges generative models, perceptual grounding, and interactive design, allowing tactile experiences to be authored, modified, and shared as first-class digital content.
 
-On the **robotics** side, I explore **active and embodied perception**, where robots choose how to interact with objects (e.g., tapping, sliding, shaking) to efficiently infer **material properties**, **internal structure**, and **affective qualities** such as roughness or hardness. On the **HCI** side, I investigate how these representations can be exposed to users through **intuitive interfaces**, enabling people to **reason about**, **author**, and **manipulate** physical sensations rather than raw sensor data.
-
-A core direction of my work is the integration of **VR/AR** and **language-based interaction** for **haptic and texture authoring**. I am interested in systems where users can describe objects and surface properties in **natural language**, generate or edit **3D objects and textures** in immersive environments, and **feel** the resulting surfaces through **haptic rendering devices**. This bridges **generative models**, **perceptual grounding**, and **interactive design**, allowing **tactile experiences** to be authored, modified, and shared as **first-class digital content**.
-
-My long-term goal is to build **human-centered haptic systems** that connect **robotic perception** with **immersive interaction**—supporting applications in **teleoperation**, **design**, **accessibility**, and **embodied AI**, where **touch** becomes an **expressive and programmable medium**.
-
-<hr class="section-divider">
-
-Outside of research, I chase problems that pull me upward—climbing and weightlifting are my favorite ways to reset my mind, test patience and focus, and build a sense of steady progress. I also escape to the mountains for skiing whenever I can.
-
-<div class="interest-row">
-  <img class="interest-image" src="/img/personal_interest/climb1.jpg" alt="Climbing at the gym">
-  <img class="interest-image" src="/img/personal_interest/climb_crimp.jpg" alt="Climbing on a board">
-  <img class="interest-image" src="/img/personal_interest/Ski_1.jpg" alt="Ski trip">
-  <img class="interest-image" src="/img/personal_interest/antelopevalley.jpg" alt="Hiking in Antelope Valley">
-</div>
-
-Feel free to connect with me via [email](mailto:wanliqian965@gmail.com) or on [GitHub](https://github.com/Silverwings-zero).
-
-<!-- [About Me](/aboutMe) | [CV](/Michael.pdf) | [Projects](/Projects) | [Blog](/Blog) -->
-
-<style>
-.profile {
-  text-align: center;
-  margin-bottom: 20px;
-}
-.profile-image {
-  border-radius: 10px;
-  margin-bottom: 20px;
-  width: 170px;
-  height: 170px;
-  object-fit: cover;
-}
-.interest-image {
-  width: 220px;
-  height: 220px;
-  border-radius: 12px;
-  margin: 8px;
-  object-fit: cover;
-  object-position: 50% 20%;
-}
-.interest-row {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 8px;
-  align-items: center;
-  overflow-x: auto;
-}
-.section-divider {
-  border: 0;
-  height: 1px;
-  background: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,0.2), rgba(0,0,0,0));
-  margin: 24px 0 18px 0;
-}
-</style>
+My long-term goal is to build human-centered haptic systems that connect robotic perception with immersive interaction, supporting applications in teleoperation, design, accessibility, and embodied AI, where touch becomes an expressive and programmable medium.

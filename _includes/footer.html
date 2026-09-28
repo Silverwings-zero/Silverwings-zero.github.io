@@ -1,0 +1,18 @@
+<footer class="cta">
+  <h2>Let's talk about touch<span class="dot">.</span></h2>
+  <p>I'm looking for a Summer 2027 research internship in robotics, tactile perception, or haptics. I'm also always happy to talk research.</p>
+  <div class="btn-row">
+    <a class="btn btn-primary" href="mailto:{{ site.profile.email }}">Email me</a>
+    <a class="btn" href="{{ site.profile.cv | relative_url }}">Download CV</a>
+  </div>
+  <div class="foot">
+    <span>© {{ site.time | date: "%Y" }} {{ site.author }} · {{ site.profile.location }}</span>
+    <nav aria-label="Elsewhere">
+      <a href="{{ site.profile.scholar }}">Scholar</a>
+      <a href="{{ site.profile.github }}">GitHub</a>
+      <a href="{{ site.profile.linkedin }}">LinkedIn</a>
+      <a href="{{ site.profile.lab }}">HaRVI Lab</a>
+      <a href="{{ '/Media/' | relative_url }}">Media</a>
+    </nav>
+  </div>
+</footer>

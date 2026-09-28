@@ -1,0 +1,28 @@
+{%- assign page_title = page.title | default: site.title -%}
+{%- if page.url == "/" -%}{%- assign full_title = site.title -%}{%- else -%}{%- assign full_title = page_title | append: " · " | append: site.title -%}{%- endif -%}
+{%- assign page_description = page.summary | default: page.description | default: site.description -%}
+{%- assign page_image = page.image | default: site.profile.photo -%}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{ full_title | strip_html | escape }}</title>
+<meta name="description" content="{{ page_description | strip_html | strip_newlines | escape }}">
+<meta name="author" content="{{ site.author | escape }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+<meta property="og:title" content="{{ page_title | strip_html | escape }}">
+<meta property="og:description" content="{{ page_description | strip_html | strip_newlines | escape }}">
+<meta property="og:image" content="{{ page_image | absolute_url }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#111013">
+<link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+<script>
+  try { if (localStorage.getItem('theme') === 'light') document.documentElement.setAttribute('data-theme', 'light'); } catch (e) {}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Young+Serif&display=swap">
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+{%- if site.plugins contains "jekyll-feed" %}
+<link rel="alternate" type="application/atom+xml" href="{{ '/feed.xml' | relative_url }}" title="{{ site.title | escape }}">
+{%- endif %}

@@ -1,36 +1,53 @@
-title: "Michael Qian"
-author: "Michael Qian"
-description: "University of Southern California"
+title: "Wanli (Michael) Qian"
+author: "Wanli (Michael) Qian"
+description: "Ph.D. student at USC building systems that let people and robots capture, generate, and feel touch."
+url: "https://silverwings-zero.github.io"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n\n"
 date_format: "%B %d, %Y"
 
-# Layout
+# Profile, used by the header, hero, and footer
 
-show_excerpts: true        # show article excerpts on the home page
-show_frame: false           # adds a gray frame to the site
-show_sidebar: true        # show a sidebar instead of the usual header
-minimal: false  
+profile:
+  greeting_name: "Michael"
+  headline: "I make touch programmable."
+  status: "Seeking a Summer 2027 research internship"
+  photo: "/img/profile-image.jpg"
+  photo_alt: "Portrait of Wanli (Michael) Qian in front of a graffiti wall"
+  email: "wanliqian965@gmail.com"
+  location: "Los Angeles, CA"
+  cv: "/assets/cv/Wanli_Qian_CV.pdf"
+  scholar: "https://scholar.google.com/citations?user=azFoAIkAAAAJ&hl=en"
+  github: "https://github.com/Silverwings-zero"
+  linkedin: "https://www.linkedin.com/in/wanli-qian-7bb399192/"
+  lab: "https://sites.usc.edu/culbertson/"
 
-# Menu
+# Main menu. Links starting with "#" point to sections of the home page.
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.md", title: "Home"}
-  - {title: "CV", url: "/assets/cv/Wanli_Qian_CV.pdf"}
-  - {file: "Projects.html", title: "Projects"}
-  - {file: "Media.md", title: "Media"}
-  #- {file: "Work.md", title: "Work"}
-  - {title: "lAB", url: "https://sites.usc.edu/culbertson/"}
+navigation:
+  - {title: "Research", url: "#research"}
+  - {title: "Publications", url: "#publications"}
+  - {title: "About", url: "#about"}
+  - {title: "Life", url: "#life"}
 
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:wanliqian965@gmail.com"}
-  - {title: Github, icon: github, url: "https://github.com/Silverwings-zero"}
-  #- {title: Subscribe, icon: rss, url: "/feed.xml"}
+# Every post is a project page.
 
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
+defaults:
+  - scope: {path: "", type: "posts"}
+    values: {layout: "post"}
+
+# Leftover pages from the old theme that should not be published.
+
+exclude:
+  - README.md
+  - Blog.html
+  - aboutMe.md
+  - Work.md
+  - archive.html
+  - Gemfile
+  - Gemfile.lock
+  - UNLICENSE.txt
 
 plugins:
  - jekyll-feed

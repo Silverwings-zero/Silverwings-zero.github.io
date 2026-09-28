@@ -2,6 +2,11 @@
 layout: default
 ---
 <article>
-  <header><h1><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h1></header>
-  {{ content }}
+  <header class="page-head">
+    <h1>{{ page.title }}</h1>
+    {%- if page.summary %}<p>{{ page.summary }}</p>{% endif %}
+  </header>
+  <div class="prose page-body">
+{{ content }}
+  </div>
 </article>

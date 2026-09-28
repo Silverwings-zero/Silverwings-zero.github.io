@@ -1,11 +1,15 @@
 ---
 permalink: /404.html
-title: "404: Page not found"
+title: "Page not found"
 layout: default
 sitemap: false
 ---
-
-<article>
-  <header><h1>404</h1></header>
-  <p>Page not found</p>
-</article>
+<header class="page-head">
+  <p class="eyebrow">404</p>
+  <h1>This page doesn't exist<span class="dot">.</span></h1>
+  <p>The link may be old. Try the home page or the full list of projects.</p>
+  <div class="btn-row">
+    <a class="btn btn-primary" href="{{ '/' | relative_url }}">Go home</a>
+    <a class="btn" href="{{ '/Projects/' | relative_url }}">All projects</a>
+  </div>
+</header>

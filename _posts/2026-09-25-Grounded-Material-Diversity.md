@@ -1,16 +1,15 @@
 ---
 title: "Physically Grounded Material Diversity for Dexterous Manipulation"
+card_title: "Physically Grounded Material Diversity"
 layout: post
 categories: projects
+venue: "Ongoing project"
+featured: 4
+topics: [Robotics, Haptics]
+image: /img/cards/material-diversity.jpg
+image_alt: "Measured material cards on the left; simulated dexterous hands grasping objects made of those materials on the right"
+summary: "Putting measured materials, not random friction values, into simulation, so robot hands learn how real surfaces grip, slide, and slip."
 ---
-
-![Measured material cards on the left; simulated dexterous hands grasping objects made of those materials on the right](/img/MaterialDiversity_teaser.png)
-
-**Ongoing project**
-
-Putting measured materials, not random friction values, into simulation, so robot hands learn how real surfaces grip, slide, and slip.
-
-
 
 ## Overview
 

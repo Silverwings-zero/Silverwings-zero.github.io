@@ -1,0 +1,39 @@
+timeline:
+  - {years: "2024–now", place: "University of Southern California", role: "Ph.D., Computer Science · HaRVI Lab", current: true}
+  - {years: "2022–2024", place: "University of Chicago", role: "Predoctoral M.S. · AxLab with Prof. Ken Nakagaki"}
+  - {years: "2022", place: "Kolmostar", role: "Software Engineer Intern"}
+  - {years: "2021–2022", place: "Georgia Tech Borg Lab", role: "Lab Assistant · robot drawing and writing"}
+  - {years: "2018–2022", place: "Georgia Institute of Technology", role: "B.S., Computer Science"}
+  - {years: "2019", place: "Megvii", role: "Robotics Software Solution Intern"}
+
+interests:
+  summary: "How robots and people perceive, represent, and author touch. Right now that means language-driven haptic textures, touchable twins of scanned scenes, tactile-feedback teleoperation, and measured materials for robot learning in simulation."
+  tags: ["Haptic rendering", "Tactile perception", "Teleoperation", "HCI", "VR/AR"]
+
+# Two scrolling rows in the Toolbox tile.
+tools:
+  - - {name: "3D Systems Touch", note: "1 kHz force feedback"}
+    - {name: "GelSight Mini", note: "vision-based tactile"}
+    - {name: "Franka FR3", note: "7-DoF arm"}
+    - {name: "XHAND1", note: "dexterous hand"}
+    - {name: "Weart glove", note: "vibrotactile rendering"}
+    - {name: "Isaac Lab", note: "robot learning sim"}
+  - - {name: "CLIP", note: "text embeddings"}
+    - {name: "Stable Diffusion", note: "visual previews"}
+    - {name: "SAM 2", note: "segmentation"}
+    - {name: "VGGT", note: "3D reconstruction"}
+    - {name: "Unity", note: "shape displays"}
+    - {name: "Python", note: "everything else"}
+
+service:
+  - {label: "Teaching assistant", text: "CSCI 445 Introduction to Robotics, USC (2025) · CMSC 25040 Introduction to Computer Vision, UChicago (2023)"}
+  - {label: "Reviewer", text: "CHI, UIST, IEEE Haptics Symposium, IEEE Transactions on Haptics"}
+  - {label: "Mentor", text: "USC CURVE, Viterbi SURE, and REU students"}
+
+life:
+  intro: "Climbing and weightlifting reset my mind and reward steady progress. When I can, I head to the mountains to ski."
+  photos:
+    - {src: "/img/life/bouldering.jpg", alt: "Climbing at the gym", caption: "Bouldering"}
+    - {src: "/img/life/board-climbing.jpg", alt: "Climbing on a training board", caption: "Board climbing"}
+    - {src: "/img/life/skiing.jpg", alt: "Skiing in the mountains", caption: "Skiing"}
+    - {src: "/img/life/antelope-valley.jpg", alt: "Hiking in Antelope Valley", caption: "Antelope Valley"}

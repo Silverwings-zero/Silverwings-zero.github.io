@@ -1,18 +1,20 @@
 ---
 title: "Weakly Supervised Part-Based Method for Combined Object Detection in Remote Sensing Imagery"
+card_title: "Part-based object detection in remote sensing"
 layout: post
 categories: projects
+venue: "IEEE JSTARS 2022"
+topics: [Vision]
+image: /img/cards/remote-sensing.jpg
+image_alt: "Part-based detection network overview"
+summary: "A weakly supervised, part-based detector for combined objects in remote sensing images that needs less labeling."
+links:
+  - {label: "Paper", url: "https://ieeexplore.ieee.org/document/9789416"}
 ---
-
-![Project Illustration](/img/PTDNet.png)  <!-- Replace with an actual image from the project if available -->
-
-
 
 ## Overview
 
 The project titled "Weakly Supervised Part-Based Method for Combined Object Detection in Remote Sensing Imagery" introduces a novel approach to object detection within remote sensing imagery. This method focuses on a part-based detection technique under a weakly supervised setting, aiming to enhance object detection performance while reducing the necessity for exhaustive labeling, which is a common hurdle in the remote sensing domain.
-
-[Read the full paper](https://www.researchgate.net/publication/363031623_Weakly_Supervised_Part-Based_Method_for_Combined_Object_Detection_in_Remote_Sensing_Imagery)
 
 ## Objectives
 

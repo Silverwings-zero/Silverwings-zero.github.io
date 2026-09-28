@@ -1,0 +1,11 @@
+# Newest first. "text" is Markdown.
+- date: "2026-09"
+  text: "**TouchTwin**, a system for turning phone scans into touchable, editable haptic scenes, was submitted to CHI 2027."
+- date: "2026-03"
+  text: "**Language-guided texture authoring** received a Distinguished Paper Award (Technical Long Paper) at IEEE Haptics Symposium 2026."
+- date: "2025-09"
+  text: "**Shape n'Swarm**, generative authoring with swarm UIs and LLMs, appeared at ACM UIST 2025."
+- date: "2025-08"
+  text: "Featured by **Spectrum News NY1** in [“Majoring in Artificial Intelligence.”](https://ny1.com/nyc/all-boroughs/news/2025/08/28/majoring-in-artificial-intelligence)"
+- date: "2024-10"
+  text: "**SHAPE-IT**, text-to-shape-display with LLMs, appeared at ACM UIST 2024."

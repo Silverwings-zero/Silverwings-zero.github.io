@@ -1,20 +1,23 @@
 ---
-title: "Introducing GTGraffiti: A Robot that Paints like a Human(Collbration)"
+title: "GTGraffiti: A Robot That Paints Like a Human (Collaboration)"
+card_title: "GTGraffiti: spray painting with a cable robot"
 layout: post
 categories: media
+venue: "IEEE ICRA 2022"
+topics: [Robotics]
+image: https://research.gatech.edu/sites/default/files/hero-image/gt_graffiti-robot.png
+image_alt: "The GTGraffiti cable robot painting on a wall"
+summary: "A cable-driven robot that reproduces human graffiti painting motions, from motion capture to spray paint."
+links:
+  - {label: "Paper", url: "https://ieeexplore.ieee.org/document/9812008"}
+  - {label: "Video", url: "https://www.youtube.com/watch?v=R4ySYTNGv6s"}
 ---
-
-![GTGraffiti](https://research.gatech.edu/sites/default/files/hero-image/gt_graffiti-robot.png)
-
-
 
 ## Overview
 
 GTGraffiti is a groundbreaking project that embodies the fusion of art and robotics. This project, conducted at Georgia Tech, involves the creation of a robot capable of painting like a human artist. The robot is designed to understand and replicate the nuanced strokes and techniques employed by human artists, thus pushing the boundaries of what machines can achieve in the domain of creative expression.
 
 {% include embed.html url="https://www.youtube.com/embed/5dH81DFNipQ?si=sWt395wr0gM4vCPE" %}
-
-[Read the full paper](https://arxiv.org/pdf/2109.06238.pdf)
 
 ## Objectives
 

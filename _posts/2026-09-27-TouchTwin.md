@@ -1,16 +1,17 @@
 ---
 title: "TouchTwin: Human–AI Haptic Authoring for 3D-Scanned Tabletop Scenes through Language and Touch"
+card_title: "TouchTwin"
 layout: post
 categories: projects
+venue: "CHI 2027 · Submitted"
+featured: 1
+topics: [Haptics, HCI]
+image: /img/cards/touchtwin.jpg
+image_alt: "TouchTwin: capture, reconstruct, auto-propose, correct by language, feel"
+summary: "Turn a 30-second phone video into a touchable twin, then fix what feels wrong by typing what your hand tells you."
+links:
+  - {label: "Video", url: "https://youtu.be/xTslWM09Zl8"}
 ---
-
-![TouchTwin: capture, reconstruct, auto-propose, correct by language, feel](/img/TouchTwin_teaser.jpg)
-
-**Submitted to CHI 2027** · [Video](https://youtu.be/xTslWM09Zl8)
-
-TouchTwin turns a 30-second phone video of a tabletop into a touchable twin. AI drafts the material regions, and you feel them with a haptic stylus and fix what feels wrong by typing what your hand tells you.
-
-
 
 {% include embed.html url="https://www.youtube.com/embed/xTslWM09Zl8" %}
 

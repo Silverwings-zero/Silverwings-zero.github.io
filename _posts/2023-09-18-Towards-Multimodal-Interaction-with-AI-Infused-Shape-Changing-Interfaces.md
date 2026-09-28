@@ -1,13 +1,16 @@
 ---
 title: "Towards Multimodal Interaction with AI-Infused Shape-Changing Interfaces"
+card_title: "Multimodal interaction with AI shape displays"
 layout: post
 categories: projects
+venue: "UIST 2024 Poster"
+topics: [HCI]
+image: /img/cards/shape-it-poster.jpg
+image_alt: "SHAPE-IT poster overview"
+summary: "An early look at SHAPE-IT: GPT-4 turns natural-language instructions into dynamic shapes on a pin-based display."
+links:
+  - {label: "Paper", url: "https://dl.acm.org/doi/abs/10.1145/3672539.3686315"}
 ---
-
-![SHAPE-IT Illustration](/img/SHAPE-IT.png)  <!-- Replace with an actual image from the project if available -->
-
-[Publication: UIST 2024 Posters](https://dl.acm.org/doi/abs/10.1145/3672539.3686315)
-
 
 ## Abstract
 

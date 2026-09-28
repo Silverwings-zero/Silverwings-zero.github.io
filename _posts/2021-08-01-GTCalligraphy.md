@@ -1,13 +1,13 @@
 ---
 title: "Enhancing Calligraphy Generation with Stroke Number Optimization"
+card_title: "Stroke-optimized robotic calligraphy"
 layout: post
 categories: projects
+topics: [Robotics]
+image: /img/cards/calligraphy.jpg
+image_alt: "Generated calligraphy strokes"
+summary: "Adapts the number of stroke control points to each character's complexity, so generated calligraphy follows the original more closely."
 ---
-
-![Project Illustration](/img/Calligraphy.png)  <!-- Replace with an actual image from the project if available -->
-
-
-
 
 ## Overview
 
@@ -27,7 +27,7 @@ The primary Contribution of this extended project include:
 
 The results showcase a remarkable improvement in the quality of generated calligraphy writing, making a compelling case for the importance of stroke number optimization in enhancing calligraphy generation models, underscoring the potential of this method in contributing to the broader field of stylized character generation.
 
-![Calligraphy Eval](/img/Calligraphy.png) 
+![Calligraphy evaluation](/img/CalligraphyEval.png) 
 
 ## Future Work
 

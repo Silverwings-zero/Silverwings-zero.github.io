@@ -1,0 +1,149 @@
+---
+layout: default
+---
+{%- assign pr = site.profile -%}
+<header class="hero">
+  <div>
+    <span class="status"><i aria-hidden="true"></i>{{ pr.status }}</span>
+    <h1>Hi, I'm {{ pr.greeting_name }}<span class="dot">.</span><br><span class="soft">I make touch</span> programmable.</h1>
+    <div class="lede">{{ page.lede | markdownify }}</div>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="#research">See my research</a>
+      <a class="btn" href="{{ pr.cv | relative_url }}">Download CV</a>
+    </div>
+  </div>
+  <div class="portrait">
+    <img src="{{ pr.photo | relative_url }}" alt="{{ pr.photo_alt }}">
+    <div class="socials">
+      <a class="chip" href="{{ pr.scholar }}">Scholar ↗</a>
+      <a class="chip" href="{{ pr.github }}">GitHub ↗</a>
+      <a class="chip" href="{{ pr.linkedin }}">LinkedIn ↗</a>
+    </div>
+  </div>
+</header>
+
+<section class="section" aria-labelledby="news-title">
+  <div class="sec-head"><h2 id="news-title">News</h2></div>
+  <ul class="rows news">
+    {%- for item in site.data.news %}
+    <li class="row"><time class="when" datetime="{{ item.date }}">{{ item.date | append: "-01" | date: "%b %Y" }}</time><div>{{ item.text | markdownify }}</div></li>
+    {%- endfor %}
+  </ul>
+</section>
+
+{%- assign featured = site.posts | where_exp: "p", "p.featured" | sort: "featured" -%}
+{%- assign earlier = site.posts | where_exp: "p", "p.featured == nil" -%}
+<section class="section" id="research" aria-labelledby="research-title">
+  <div class="sec-head"><h2 id="research-title">Selected research</h2><a href="{{ '/Projects/' | relative_url }}">All projects →</a></div>
+  <div class="works">
+    {%- for p in featured %}
+    {% include work-card.html post=p %}
+    {%- endfor %}
+    <div class="archive">
+      <h3>Earlier work</h3>
+      <ul>
+        {%- for p in earlier limit: 4 %}
+        <li><a href="{{ p.url | relative_url }}"><span>{{ p.date | date: "%Y" }}</span><span>{{ p.card_title | default: p.title }}</span></a></li>
+        {%- endfor %}
+      </ul>
+      <a class="btn" href="{{ '/Projects/' | relative_url }}">Browse all projects</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="publications" aria-labelledby="pubs-title">
+  <div class="sec-head"><h2 id="pubs-title">Publications</h2><a href="{{ pr.scholar }}">Google Scholar →</a></div>
+  <div class="rows">
+    {%- for pub in site.data.publications.selected %}
+    <article class="row pub">
+      <div class="when" title="{{ pub.venue_full }}">{{ pub.venue }}</div>
+      <div>
+        <h3>{{ pub.title }}</h3>
+        <p class="authors">{{ pub.authors | replace: "Wanli Qian", "<b>Wanli Qian</b>" }}{% if pub.note %} · {{ pub.note }}{% endif %}</p>
+        <div class="chips">
+          {%- if pub.award %}<span class="chip chip-accent">{{ pub.award }}</span>{% endif -%}
+          {%- for l in pub.links %}<a class="chip" href="{{ l.url }}">{{ l.label }}</a>{% endfor -%}
+        </div>
+      </div>
+    </article>
+    {%- endfor %}
+  </div>
+  {%- if site.data.publications.under_review.size > 0 %}
+  <p class="eyebrow sub-label">Under review</p>
+  <div class="rows">
+    {%- for pub in site.data.publications.under_review %}
+    <article class="row pub">
+      <div class="when" title="{{ pub.venue_full }}">{{ pub.venue }}</div>
+      <div>
+        <h3>{{ pub.title }}</h3>
+        <p class="authors">{{ pub.authors | replace: "Wanli Qian", "<b>Wanli Qian</b>" }}</p>
+      </div>
+    </article>
+    {%- endfor %}
+  </div>
+  {%- endif %}
+</section>
+
+{%- assign about = site.data.about -%}
+<section class="section" id="about" aria-labelledby="about-title">
+  <div class="sec-head"><h2 id="about-title">About</h2></div>
+  <div class="bento">
+    <div class="tile t-timeline">
+      <h3>Path so far</h3>
+      <ol class="timeline">
+        {%- for t in about.timeline %}
+        <li{% if t.current %} class="now"{% endif %}><span class="yr">{{ t.years }}</span><span><b>{{ t.place }}</b><span class="role">{{ t.role }}</span></span></li>
+        {%- endfor %}
+      </ol>
+    </div>
+    <div class="tile t-interests">
+      <h3>What I work on</h3>
+      <p>{{ about.interests.summary }}</p>
+      <div class="chips">{% for tag in about.interests.tags %}<span class="chip">{{ tag }}</span>{% endfor %}</div>
+      {%- assign statement = content | strip -%}
+      {%- if statement != "" %}
+      <details class="statement">
+        <summary>Read my research statement</summary>
+        <div class="prose">{{ content }}</div>
+      </details>
+      {%- endif %}
+    </div>
+    <div class="tile t-tools">
+      <h3>Toolbox</h3>
+      <div class="marquee">
+        {%- for row in about.tools %}
+        <div class="track{% if forloop.index == 2 %} rev{% endif %}">
+          {%- for tool in row %}<div class="tool"><b>{{ tool.name }}</b><span>{{ tool.note }}</span></div>{% endfor -%}
+          {%- for tool in row %}<div class="tool" aria-hidden="true"><b>{{ tool.name }}</b><span>{{ tool.note }}</span></div>{% endfor -%}
+        </div>
+        {%- endfor %}
+      </div>
+    </div>
+    <div class="tile t-contact">
+      <h3>Contact</h3>
+      <div class="contact-line">
+        <a class="email" href="mailto:{{ pr.email }}">{{ pr.email }}</a>
+        <button class="icon-btn" type="button" data-copy="{{ pr.email }}">Copy</button>
+      </div>
+      <p class="location">{{ pr.location }}</p>
+    </div>
+    <div class="tile t-service">
+      <h3>Teaching and service</h3>
+      <ul class="service">
+        {%- for s in about.service %}
+        <li><b>{{ s.label }}</b> · {{ s.text }}</li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="life" aria-labelledby="life-title">
+  <div class="sec-head"><h2 id="life-title">Off the clock</h2></div>
+  <p class="life-intro">{{ about.life.intro }}</p>
+  <div class="life">
+    {%- for ph in about.life.photos %}
+    <figure><img src="{{ ph.src | relative_url }}" alt="{{ ph.alt }}" loading="lazy"><figcaption>{{ ph.caption }}</figcaption></figure>
+    {%- endfor %}
+  </div>
+</section>

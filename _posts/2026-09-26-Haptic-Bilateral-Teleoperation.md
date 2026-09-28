@@ -1,16 +1,15 @@
 ---
 title: "Feeling What the Robot Touches: Haptic Rendering for Bilateral Teleoperation"
+card_title: "Feeling What the Robot Touches"
 layout: post
 categories: projects
+venue: "Ongoing project"
+featured: 3
+topics: [Robotics, Haptics]
+image: /img/cards/teleoperation.jpg
+image_alt: "The Franka FR3 arm and gripper used for bilateral teleoperation"
+summary: "Estimating contact from tactile video and force, and rendering it to the operator's hand during teleoperation."
 ---
-
-![The Franka FR3 arm and gripper used for bilateral teleoperation](/img/Teleop_franka.jpg)
-
-**Ongoing project**
-
-Teleoperators see the task but feel almost nothing at the moment of contact. This project estimates the robot's contact state from its tactile and force sensors and renders it back to the operator's hand, so the operator can feel what the gripper is touching.
-
-
 
 ## Motivation
 

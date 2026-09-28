@@ -1,0 +1,44 @@
+# "me" is bolded in the author list. Links render as buttons.
+selected:
+  - title: "Language-Guided Multimodal Texture Authoring via Generative Models"
+    authors: "Wanli Qian, Aiden Chang, Shihan Lu, Michael Gu, Heather Culbertson"
+    venue: "Haptics '26"
+    venue_full: "IEEE Haptics Symposium 2026"
+    award: "Distinguished Paper Award"
+    links:
+      - {label: "Paper", url: "https://arxiv.org/abs/2604.06489"}
+      - {label: "Video", url: "https://youtu.be/f5vz52uPw-4"}
+  - title: "Shape n'Swarm: Hands-on, Shape-aware Generative Authoring with Swarm UI and LLMs"
+    authors: "Matthew Jeung, Anup Sathya, Wanli Qian, Steven Arellano, Luke Jimenez, Ken Nakagaki"
+    venue: "UIST '25"
+    venue_full: "ACM UIST 2025"
+    links:
+      - {label: "Paper", url: "https://dl.acm.org/doi/10.1145/3746059.3747781"}
+      - {label: "Video", url: "https://www.youtube.com/watch?v=5u0M9yL7tyY"}
+  - title: "SHAPE-IT: Exploring Text-to-Shape-Display for Generative Shape-Changing Behaviors with LLMs"
+    authors: "Wanli Qian*, Chenfeng Gao*, Anup Sathya, Ryo Suzuki, Ken Nakagaki"
+    note: "*equal contribution"
+    venue: "UIST '24"
+    venue_full: "ACM UIST 2024"
+    links:
+      - {label: "Paper", url: "https://dl.acm.org/doi/10.1145/3654777.3676348"}
+      - {label: "Video", url: "https://www.youtube.com/watch?v=2NxzOBc7AdQ"}
+  - title: "GTGraffiti: Spray Painting Graffiti Art from Human Painting Motions with a Cable Driven Parallel Robot"
+    authors: "Gerry Chen, Sereym Baek, JD Florez, Wanli Qian, Sang-won Leigh, Seth Hutchinson, Frank Dellaert"
+    venue: "ICRA '22"
+    venue_full: "IEEE ICRA 2022"
+    links:
+      - {label: "Paper", url: "https://ieeexplore.ieee.org/document/9812008"}
+      - {label: "Video", url: "https://www.youtube.com/watch?v=R4ySYTNGv6s"}
+  - title: "Weakly Supervised Part-Based Method for Combined Object Detection in Remote Sensing Imagery"
+    authors: "Wanli Qian, Zhe Yan, Zhe Zhu, Wei Yin"
+    venue: "JSTARS '22"
+    venue_full: "IEEE JSTARS, vol. 15, 2022"
+    links:
+      - {label: "Paper", url: "https://ieeexplore.ieee.org/document/9789416"}
+
+under_review:
+  - title: "TouchTwin: Human–AI Haptic Authoring for 3D-Scanned Tabletop Scenes through Language and Touch"
+    authors: "Wanli Qian et al."
+    venue: "CHI '27"
+    venue_full: "Submitted to ACM CHI 2027"

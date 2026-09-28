@@ -1,14 +1,58 @@
 ---
 layout: default
 ---
-
 <article>
-  {% include meta.html post=page %}
-  {{ content }}
-  {% if page.comments != false and site.comments.isso or site.comments.disqus %}
-    <hr>
-    {% if site.comments.isso_domain %}<div id="isso-thread"></div>{% endif %}
-    {% if site.comments.disqus_shortname %}<div id="disqus_thread"></div>{% endif %}
-    <noscript>Please enable JavaScript to view comments.</noscript>
-  {% endif %}
+  <header class="project-head">
+    <a class="back" href="{{ '/Projects/' | relative_url }}">← All projects</a>
+    <div class="chips">
+      {%- if page.venue %}<span class="chip">{{ page.venue }}</span>{% endif -%}
+      {%- if page.award %}<span class="chip chip-accent">{{ page.award }}</span>{% endif -%}
+      <span class="chip">{{ page.date | date: "%b %Y" }}</span>
+    </div>
+    <h1>{{ page.title }}</h1>
+    {%- if page.summary %}
+    <p class="summary">{{ page.summary }}</p>
+    {%- endif %}
+    {%- if page.links %}
+    <div class="btn-row">
+      {%- for l in page.links %}
+      <a class="btn{% if forloop.first %} btn-primary{% endif %}" href="{{ l.url | relative_url }}">{{ l.label }}</a>
+      {%- endfor %}
+    </div>
+    {%- endif %}
+  </header>
+
+  {%- if page.image %}
+  <figure class="project-hero">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}">
+  </figure>
+  {%- endif %}
+
+  <div class="prose project-body">
+{{ content }}
+  </div>
 </article>
+
+{%- comment -%} Up to three more projects: ones sharing a topic first, then the most recent others. {%- endcomment -%}
+{%- assign related = "" | split: "" -%}
+{%- for p in site.posts -%}
+  {%- if p.url != page.url and related.size < 3 -%}
+    {%- assign shared = false -%}
+    {%- for t in p.topics -%}{%- if page.topics contains t -%}{%- assign shared = true -%}{%- endif -%}{%- endfor -%}
+    {%- if shared -%}{%- assign related = related | push: p -%}{%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- for p in site.posts -%}
+  {%- if p.url != page.url and related.size < 3 -%}
+    {%- unless related contains p -%}{%- assign related = related | push: p -%}{%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<section class="related" aria-labelledby="related-title">
+  <div class="sec-head"><h2 id="related-title">More projects</h2><a href="{{ '/Projects/' | relative_url }}">All projects →</a></div>
+  <div class="works">
+    {%- for p in related %}
+    {% include work-card.html post=p %}
+    {%- endfor %}
+  </div>
+</section>

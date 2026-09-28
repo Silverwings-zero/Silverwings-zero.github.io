@@ -1,0 +1,25 @@
+<a class="skip" href="#main">Skip to content</a>
+<div class="nav-shell">
+  <div class="wrap">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="{{ '/' | relative_url }}"><span class="mark" aria-hidden="true">WQ</span><span>{{ site.title }}</span></a>
+      <div class="nav-links">
+        {%- for item in site.navigation %}
+        <a href="{{ '/' | relative_url }}{{ item.url }}">{{ item.title }}</a>
+        {%- endfor %}
+        <a href="{{ '/Projects/' | relative_url }}"{% if page.url == "/Projects/" %} aria-current="page"{% endif %}>Projects</a>
+        <a href="{{ site.profile.cv | relative_url }}">CV</a>
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch between dark and light theme">◐</button>
+      </div>
+      <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">Menu</button>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      {%- for item in site.navigation %}
+      <a href="{{ '/' | relative_url }}{{ item.url }}">{{ item.title }}</a>
+      {%- endfor %}
+      <a href="{{ '/Projects/' | relative_url }}">Projects</a>
+      <a href="{{ site.profile.cv | relative_url }}">CV</a>
+      <button type="button" data-theme-toggle>Switch theme</button>
+    </div>
+  </div>
+</div>
