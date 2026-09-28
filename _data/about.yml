@@ -7,8 +7,8 @@ timeline:
   - {years: "2019", place: "Megvii", role: "Robotics Software Solution Intern"}
 
 interests:
-  summary: "How robots and people perceive, represent, and author touch. Right now that means language-driven haptic textures, touchable twins of scanned scenes, tactile-feedback teleoperation, and measured materials for robot learning in simulation."
-  tags: ["Haptic rendering", "Tactile perception", "Teleoperation", "HCI", "VR/AR"]
+  summary: "How touch should be represented so that people can feel it and robots can learn from it. Right now that means language-driven haptic textures, touchable twins of scanned scenes, teleoperation with tactile feedback, and tactile representations for robot manipulation, grounded in measured materials in simulation."
+  tags: ["Haptic rendering", "Tactile perception", "Robot learning", "Teleoperation", "HCI", "VR/AR"]
 
 # Two scrolling rows in the Toolbox tile.
 tools:

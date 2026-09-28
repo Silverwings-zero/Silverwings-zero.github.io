@@ -97,6 +97,7 @@ a.chip:hover { color: var(--text); border-color: var(--muted); }
 .hero h1 { font-size: clamp(40px, 6.2vw, 78px); line-height: 1.04; letter-spacing: -0.015em; margin-top: 22px; }
 .dot { color: var(--accent); }
 .hero h1 .soft { color: var(--muted); }
+.hero h1 .h1-sub { display: block; font-size: 0.56em; line-height: 1.15; letter-spacing: -0.005em; margin-top: 0.45em; }
 .lede { margin-top: 22px; max-width: 58ch; font-size: clamp(17px, 1.6vw, 19px); color: var(--muted); }
 .lede strong { color: var(--text); font-weight: 600; }
 .hero .btn-row { margin-top: 28px; }
